@@ -1,0 +1,386 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Rohith Gogi - Backend Developer</title> <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="style
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rohith Gogi - Backend Developer</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+<body>
+<nav class="navbar">
+    <div class="nav-content">
+        <div class="logo">RG</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#resume" class="nav-link">Resume</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+<!--            <a href="#experience" class="nav-link">Experience</a>-->
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero-section">
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="hero-content">
+        <div class="profile-image">
+            <img src="IMG_6068.jpg"  style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <h1 class="hero-title">GOGI REDY ROHITH</h1>
+        <h2 class="hero-subtitle">Backend Developer & System Architect</h2>
+        <p class="hero-description">
+            Crafting scalable backend solutions with Java, Spring Boot, and microservices architecture.
+            Passionate about building robust systems that power amazing user experiences.
+        </p>
+        <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-code"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i> Get In Touch
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>I'm a passionate Backend Developer with expertise in Java ecosystem and cloud technologies. Currently working as an Associate Engineer at Ascendion Engineering, where I've contributed to large-scale enterprise migration platforms and microservices architecture.</p>
+            <br>
+            <p>My journey includes winning the Agentic Wars challenge, achieving AWS certification, and building scalable systems that reduce operational complexity. I thrive on solving complex problems and transforming ideas into robust, scalable solutions.</p>
+            <br>
+            <p><strong>📍 Location:</strong> Bangalore, Karnataka, India</p>
+            <p><strong>📧 Email:</strong> gredyrohith21@gmail.com</p>
+        </div>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">8.37</div>
+                <div>CGPA</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1+</div>
+                <div>Years Experience</div>
+            </div>
+<!--            <div class="stat-card">-->
+<!--                <div class="stat-number">40%</div>-->
+<!--                <div>Migration Time Reduced</div>-->
+<!--            </div>-->
+        </div>
+    </div>
+
+    <div class="achievement-highlight">
+        <div class="achievement-badge">
+            <i class="fas fa-trophy"></i>
+        </div>
+        <h3>🏆 Ascendion Certified Agentic Warrior 2025</h3>
+        <p>Winner of Agentic Wars - Developed AI-powered workflow for converting relational schemas to Neo4j graph database code</p>
+    </div>
+</section>
+
+<section id="resume" class="resume-section">
+    <div class="resume-content">
+        <h2 class="section-title" style="color: white;">Resume</h2>
+        <div class="resume-preview">
+            <div class="resume-icon">
+                <i class="fas fa-file-pdf"></i>
+            </div>
+            <h3>Professional Resume</h3>
+            <p>Download my complete resume to learn more about my experience, skills, and achievements in backend development and system architecture.</p>
+            <div class="resume-buttons">
+                <button class="btn btn-primary" onclick="viewResume()">
+                    <i class="fas fa-eye"></i> View Resume
+                </button>
+                <button class="btn btn-secondary" onclick="downloadResume()">
+                    <i class="fas fa-download"></i> Download PDF
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+
+        <!-- Core Programming & Concepts -->
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Core Programming & Concepts</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Data Structures & Algorithms (DSA)</span>
+                <span class="skill-tag">Object-Oriented Programming (OOP)</span>
+            </div>
+        </div>
+
+        <!-- Backend Frameworks & Tools -->
+        <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend Frameworks & Tools</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Spring Boot</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">Microservices</span>
+                <span class="skill-tag">Maven</span>
+            </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Databases</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">MS SQL Server</span>
+                <span class="skill-tag">Neo4j</span>
+            </div>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div class="skill-category">
+            <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitHub</span>
+<!--                <span class="skill-tag">CI/CD</span>-->
+            </div>
+        </div>
+
+        <!-- Development Tools -->
+<!--        <div class="skill-category">-->
+<!--            <h3><i class="fas fa-tools"></i> Development Tools</h3>-->
+<!--            <div class="skill-tags">-->
+<!--                <span class="skill-tag">IntelliJ IDEA</span>-->
+<!--                <span class="skill-tag">Postman</span>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <!-- Optional: Data Engineering Tools -->
+<!--        <div class="skill-category">-->
+<!--            <h3><i class="fas fa-chart-bar"></i> Data Engineering Tools</h3>-->
+<!--            <div class="skill-tags">-->
+<!--                <span class="skill-tag">Power BI</span>-->
+<!--                <span class="skill-tag">ETL</span>-->
+<!--                <span class="skill-tag">SSIS</span>-->
+<!--                <span class="skill-tag">DAX</span>-->
+<!--            </div>-->
+<!--        </div>-->
+
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-header">
+                <h3 class="project-title">🚀 Agentic Wars AI Challenge</h3>
+                <p class="project-subtitle">Cypher Query Builder - Winner Project</p>
+            </div>
+            <div class="project-content">
+                <p class="project-description">
+                    Designed and developed an agentic workflow to automate conversion of relational database schemas into Neo4j Cypher queries. Built with Spring Boot enabling one-click transformation with real-time visualization.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">Neo4j</span>
+                    <span class="tech-tag">AI/ML</span>
+                    <span class="tech-tag">Microservices</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/rohithgogi" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h3 class="project-title">💧 WaterWala</h3>
+                <p class="project-subtitle">Water Supply Marketplace (In Development)</p>
+            </div>
+            <div class="project-content">
+                <p class="project-description">
+                    Comprehensive water supply marketplace application with microservices architecture. Features include order management, subscription services, delivery tracking, and payment integration.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Redis</span>
+                    <span class="tech-tag">Microservices</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/rohithgogi" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h3 class="project-title">🏥 Hospital Management System</h3>
+                <p class="project-subtitle">Java-based Healthcare Solution</p>
+            </div>
+            <div class="project-content">
+                <p class="project-description">
+                    Developed a comprehensive Hospital Management System with patient record management, doctor scheduling, and appointment tracking. Built with Java and MySQL for robust data management.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">IntelliJ IDEA</span>
+                    <span class="tech-tag">JDBC</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/rohithgogi" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h3 class="project-title">📊 Retail Sales Analytics</h3>
+                <p class="project-subtitle">Power BI Dashboard Solution</p>
+            </div>
+            <div class="project-content">
+                <p class="project-description">
+                    Built comprehensive retail analytics solution with Power BI, featuring data integration from multiple sources, ETL processes, and interactive visualizations for real-time business insights.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Power BI</span>
+                    <span class="tech-tag">DAX</span>
+                    <span class="tech-tag">ETL</span>
+                    <span class="tech-tag">SQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/rohithgogi" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <h3 class="project-title">💼 Job Board Lite</h3>
+                <p class="project-subtitle">Recruitment Platform</p>
+            </div>
+            <div class="project-content">
+                <p class="project-description">
+                    Lightweight job board application with job posting, application management, and candidate tracking features. Built with modern web technologies for optimal performance.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/rohithgogi" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <h2 class="section-title">Let's Connect</h2>
+    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology!</p>
+    <div class="contact-links">
+        <a href="mailto:gredyrohith21@gmail.com" class="contact-link">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://www.linkedin.com/in/gogi-redy-rohith-5ab17b246/" class="contact-link" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/rohithgogi" class="contact-link" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://leetcode.com/u/rohith21/" class="contact-link" target="_blank">
+            <i class="fas fa-code"></i> LeetCode
+        </a>
+    </div>
+</section>
+
+<script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {
+            navbar.style.background = 'rgba(10, 10, 10, 0.98)';
+        } else {
+            navbar.style.background = 'rgba(10, 10, 10, 0.95)';
+        }
+    });
+
+    // Add animation on scroll
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Observe all sections
+    document.querySelectorAll('.section').forEach(section => {
+        section.style.opacity = '0';
+        section.style.transform = 'translateY(30px)';
+        section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(section);
+    });
+
+    function viewResume() {
+        // Replace with your actual file link
+        window.open('https://drive.google.com/file/d/1Em2dCbauMrEFRLHL0kNaFva3v8AMpZ07/view?usp=sharing', '_blank');
+    }
+
+    function downloadResume() {
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/uc?export=download&id=1Em2dCbauMrEFRLHL0kNaFva3v8AMpZ07';
+    link.download = 'resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+</script>
+</body>
+</html>
